@@ -16,16 +16,16 @@ html{
   overflow-x: hidden;
 }
 
-.loading{
+#loading{
   display: none;
   position: relative;
 }
 
-.loading > p{
+#loading > p{
   z-index: 10;
 }
 
-.loading > svg{
+#loading > svg{
   position: absolute;
   top: 36%;
   left: 40%;
@@ -33,7 +33,7 @@ html{
   animation: rotation 7s linear infinite;
 }
 
-.loading > svg:nth-of-type(even){
+#loading > svg:nth-of-type(even){
   left: 53%;
   animation: rotation2 7s linear infinite;
 }
@@ -314,5 +314,4 @@ html{
     transform: translateY(0);
     transition: transform 600ms ease-in-out;
   }
-
 }
